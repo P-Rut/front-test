@@ -8,7 +8,7 @@ const ThemeSwitch = ({ isDark, toggleTheme }) => {
       <Switch
         colorScheme="teal"
         size="lg"
-        checked={isDark}
+        isChecked={isDark}
         onChange={toggleTheme}
       />
     </VStack>
